@@ -1,4 +1,5 @@
 <h2>Guitars</h2>
+<p>This is in a named subview</p>
 
 <table class="table table-hover table-striped table-bordered">
     <thead>
@@ -8,11 +9,11 @@
         </tr>
     </thead>
     <tbody>
-    
+
         <tr ng-repeat="guitar in guitars">
             <td>{{ guitar.name }}</td>
             <td>${{ guitar.price }}</td>
         </tr>
-        
+
     </tbody>
 </table>
